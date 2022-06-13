@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+}
+/* HEADER */
+header {
+  background-color: #007765;
+  position: sticky;
+  top: 0;
+}
+
+header .header_content {
+  margin: 0 auto;
+  padding: 20px 55px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1219px;
+}
+
+nav {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+nav li {
+  padding: 0 8px 0 8px;
+  list-style: none;
+  border-right: 1px solid #ffffff;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url(img/jumbotron_bg.png);
+  background-size: cover;
+}
+
+.jumbotron_content,
+.hero_content {
+  margin: 0 auto;
+  max-width: 1219px;
+  padding: 160px 0 160px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* THE PROBLEM */
+
+.problem {
+  background: #eeeeee;
+}
+
+.problem_content,
+.ppc_content {
+  margin: 0 auto;
+  max-width: 1219px;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.problem_content h1,
+.ppc_content h1,
+.team h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+}
+
+.problem_content p,
+.ppc_content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+/* HERO */
+
+.hero {
+  background-image: url(img/hero_bg.png);
+  background-size: cover;
+}
+.hero_content {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 893px;
+}
+
+/* PPC */
+
+.ppc {
+  background: #ffffff;
+}
+
+.ppc img {
+  width: 115px;
+  height: 115px;
+  margin-right: 50px;
+}
+
+.ppc_logo_div {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+}
+
+/* TEAM */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #eeeeee;
+  padding: 0 0 90px 0;
+  min-width: 400px;
+}
+
+.team_content {
+  margin: 0 auto;
+  max-width: 1219px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.team_member_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 80px 10px 80px;
+  flex-wrap: nowrap;
+}
+
+.team_member_card .name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+.team_member_card .position {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+/* FOOTER */
+footer {
+  background: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 540px;
+  margin: 50px 0;
+}
